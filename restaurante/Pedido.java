@@ -1,7 +1,6 @@
 public class Pedido {
 
     private String nomePrato;
-
     private int quantidade;
 
     private double precoUnitario;
