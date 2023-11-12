@@ -1,3 +1,5 @@
+package restaurante;
+
 public class Pedido {
 
     private String nomePrato;
