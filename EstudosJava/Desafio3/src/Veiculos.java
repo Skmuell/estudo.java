@@ -6,6 +6,8 @@ public abstract class Veiculos {
     public String modelo;
     public String ano;
 
+
+
     public Veiculos(String nomeVeiculo, String modelo, String ano){
         this.nomeVeiculo = nomeVeiculo;
         this.modelo = modelo;
