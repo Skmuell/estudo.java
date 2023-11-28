@@ -23,8 +23,8 @@ public class Moto extends Veiculo {
 
     @Override
     public String toString(){
-        return super.getModelo() + " é o modelo," + super.getAno() + " é o ano, " + super.getPlaca() + " é a placa, " +
-                this.getTipoMotor() + " é o tipo de motor";
+        return "é o modelo: " + super.getModelo() + ", é o ano: " + super.getAno() + ", é a placa: " + super.getPlaca() + ", é o tipo de motor: " +
+                this.getTipoMotor();
     }
 
     @Override

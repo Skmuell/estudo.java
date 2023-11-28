@@ -11,29 +11,18 @@ public abstract class Veiculo {
         this.placa = placa;
     }
 
-    public String getModelo() {
-        return this.modelo;
+    public String getModelo() {return this.modelo;}
+
+    public void setModelo(String modelo) {this.modelo = modelo;}
+
+    public int getAno() {return this.ano;
     }
 
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
-    }
+    public void setAno(int ano) {this.ano = ano;}
 
-    public int getAno() {
-        return this.ano;
-    }
+    public String getPlaca() {return this.placa;}
 
-    public void setAno(int ano) {
-        this.ano = ano;
-    }
-
-    public String getPlaca() {
-        return this.placa;
-    }
-
-    public void setPlaca(String placa) {
-        this.placa = placa;
-    }
+    public void setPlaca(String placa) {this.placa = placa;}
 
     public void exibirInfo() {
         System.out.println("Modelo: " + this.modelo);

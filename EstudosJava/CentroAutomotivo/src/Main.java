@@ -75,7 +75,7 @@ public class Main {
             } else if (resposta == 2) {
                 System.out.println(veiculos);
             } else if (resposta == 3) {
-                System.out.println("Digite a placa para verificar os detalhes: ");
+                System.out.println("Digite a placa para verificar detalhes: ");
                 String placaConsulta = scan.nextLine();
                 boolean placaEncontrada = false;
 

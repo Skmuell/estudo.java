@@ -35,8 +35,8 @@ public class Carro extends Veiculo {
     }
     @Override
     public String toString(){
-        return super.getModelo() + " é o modelo, " + super.getAno() + " é o ano, " + super.getPlaca() + " é a placa, " +
-                this.numPorta + " é o numero de portas e " + this.tipoVolante + " é o tipo de volante";
+        return "É o modelo: " + super.getModelo() + ", é o ano: " + super.getAno() + ", é a placa: " + super.getPlaca() + ", é o numero de portas: " +
+                this.numPorta + ", é o tipo de volante " + this.tipoVolante;
     }
 
     @Override
